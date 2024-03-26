@@ -1,0 +1,1145 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  height: 100vh;
+}
+.head-image-div{
+  position: relative;
+  width:100%;
+  display: block;
+}
+.head-image{
+  display: block;
+  width: 100%;
+}
+.head-div{
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  left: 100px;
+}
+.head-div nav{
+  float:right;
+  padding-top: 10px;
+}
+.head-div a{
+  color: hsl(0, 0%, 100%);
+  font-size: 19px;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.head-display-div{
+  width: 100%;
+}
+.head-display{
+  color: hsl(0, 0%, 100%);
+  font-size: 50px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10rem;
+  left: 0px;
+  line-height: 50px;
+  word-spacing: 5px;
+  font-weight: 100;
+  border-style: solid;
+  color: hsl(0, 7%, 89%);
+  border-width: 1px;
+  padding: 20px 60px 20px 20px;
+}
+.container{
+  background-color:hsl(0, 0%, 100%);
+  padding: 100px;
+  display: block;
+}
+.grid1{
+  position: relative;
+}
+.grid1-image-box{
+  position:relative;
+  width: 100%;
+}
+.grid1-image{
+  display: block;
+  width: auto;
+}
+.grid1-textbox{
+  position:absolute;
+  bottom: -1.2px;
+  left:35rem;
+  right: 0;
+  background-color:hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 55%);
+  padding: 70px 60px 0px 60px
+}
+.grid1-textbox h2{
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding: 0px 0px 30px 0px;
+  text-wrap: nowrap;
+}
+.grid1-textbox p{
+  line-height: 20px;
+  word-spacing: 3px;
+  text-wrap: nowrap;
+  display: block;
+}
+.creation-div{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 9rem;
+  margin-bottom: 4rem;
+}
+.creation{
+  font-size: 50px;
+  color:  hsl(0, 0%, 41%);
+  text-transform: uppercase;
+  font-weight: 100;
+}
+button{
+  color:  hsl(0, 0%, 41%);
+  font-size: 15px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-color: hsl(0, 1%, 74%);
+  background-color: white;
+  padding: 10px 30px;
+  margin-top: 15px;
+  border-radius: 4px;
+}
+button:hover{
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border: none;
+}
+.images-div{
+  display:flex;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.images-box{
+  width: 100%;
+  position:relative;
+  display: block;
+}
+.images{
+  width: 100%;
+}
+h3{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.desktop-links{
+  padding-top: 20px;
+}
+.footer{
+  background-color: black;
+  justify-content: space-between;
+  display: flex;
+  padding-inline: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.footer h4{
+  color:  hsl(0, 0%, 41%);
+  font-size: 15px;
+  padding-top: 20px;
+  margin-left: auto;
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 15px;
+}
+.socials{
+  display: flex;
+  justify-content: flex-end;
+}
+.socials svg{
+  margin-left: 20px;
+}
+
+
+/*ipad design*/
+ 
+.sidebar-div{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 0%;
+  overflow: hidden;
+  transition: all 1s ease;
+  z-index: 1000;
+  display: none;
+
+}
+.sidebar-logo-div{
+  margin-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  display: none;
+}
+
+.sidebar-div nav{
+  padding-top: 10rem;
+  margin-inline: 20px;
+  display: none;
+}
+.sidebar-div a{
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  padding-bottom: 25px;
+}
+.sidebar-div a:hover{
+  color: orangered;
+  text-decoration: underline;
+  padding-left: 9px;
+  transition:all 0.30s ease-in-out;
+}
+.ipad-head-image-div{
+  position: relative;
+  width:100%;
+  display: block;
+  background-color: black;
+  display: none;
+}
+.ipad-head-image{
+  display: block;
+  width: 100%;
+  display: none;
+}
+.ipad-head-div{
+  display:flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  left: 20px;
+  display: none;
+}
+.ipad-head-logo-div{
+  display:flex;
+  justify-content: space-between;
+  display: none;
+}
+.closebtn{
+  margin-top: 8px;
+  display: none;
+}
+.ipad-head-display-div{
+  width: 100%;
+  display: none;
+}
+.ipad-head-display{
+  color: hsl(0, 0%, 100%);
+  font-size: 40px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 12.5rem;
+  left: 0px;
+  line-height: 50px;
+  word-spacing: 5px;
+  font-weight: 100;
+  border-style: solid;
+  color: hsl(0, 7%, 89%);
+  border-width: 1px;
+  padding: 20px 60px 20px 20px;
+  display: none;
+  display: none;
+}
+
+
+.ipad-container{
+  background-color:hsl(0, 0%, 100%);
+  padding: 70px 20px 20px 20px;
+  display: block;
+  display : none;
+}
+.ipad-grid1{
+  position: relative;
+}
+.ipad-grid1-image-box{
+  position:relative;
+  width: 100%;
+}
+.ipad-grid1-image{
+  display: block;
+  width: 100%;
+  
+}
+.ipad-grid1-textbox{
+  background-color:hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 55%);
+}
+.letterHead{
+  text-align: center;
+  font-size: 45px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding: 6rem 0px 3rem 0px;
+}
+.parag{
+  line-height: 29px;
+  word-spacing: 5px;
+  padding-inline: 10px;
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}
+.ipad-creation-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 9rem;
+  margin-bottom: 4rem;
+}
+.ipad-creation{
+  font-size: 40px;
+  color:  hsl(0, 0%, 41%);
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.button-div{
+  display: flex;
+  justify-content: center;
+}
+.ipad-button{
+  color:  hsl(0, 4%, 17%);
+  font-size: 13px;
+  text-transform: uppercase;
+  word-spacing: 7px;
+  font-weight: 700;
+  border-style: solid;
+  border-color: hsl(0, 3%, 17%);
+  background-color: white;
+  padding: 12px 40px;
+  margin-top: 25px;
+  border-radius: 4px;
+}
+.ipad-button:hover{
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border: none;
+}
+.ipad-images-div{
+  display:flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.ipad-images-box{
+  width: 100%;
+  position:relative;
+  display: block;
+}
+.ipad-images{
+  width: 100%;
+}
+h3{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.ipad-links{
+  padding-top: 35px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.ipad-foot{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: none;
+}
+.ipad-foot h4{
+  color:  hsl(0, 0%, 41%);
+  font-size: 15px;
+  padding-top: 20px;
+}
+.ipad-foot a{
+  color: white;
+  text-decoration: none;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+.ipad-socials{
+  display: flex;
+  justify-content: center;
+}
+.ipad-socials svg{
+  margin: 0px 10px;
+}
+.ipad-foot-logo{
+  display:flex;
+  justify-content: center;
+}
+.ipad-copywrite{
+  display: flex;
+  justify-content: center;
+}
+
+/*mobile styling*/
+
+
+.sidebar-div{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 0%;
+  overflow: hidden;
+  transition: all 1s ease;
+  z-index: 1000;
+  display: none;
+
+}
+.sidebar-logo-div{
+  margin-inline: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  display: none;
+}
+
+.sidebar-div nav{
+  padding-top: 10rem;
+  margin-inline: 20px;
+  display: none;
+}
+.sidebar-div a{
+  color: hsl(0, 0%, 100%);
+  font-size: 25px;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  padding-bottom: 25px;
+  display: none;
+}
+.sidebar-div a:hover{
+  color: orangered;
+  text-decoration: underline;
+  padding-left: 9px;
+  transition:all 0.30s ease-in-out;
+}
+.mobile-head-image-div{
+  position: relative;
+  width:100%;
+  display: block;
+  background-color: black;
+  display: none;
+}
+.mobile-head-image{
+  display: block;
+  width: 100%;
+  display: none;
+}
+.mobile-head-div{
+  display:flex;
+  flex-direction: column;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  left: 20px;
+  display: none;
+}
+.head-logo-div{
+  display:flex;
+  justify-content: space-between;
+  display: none;
+}
+.closebtn{
+  margin-top: 8px;
+  display: none;
+}
+.mobile-head-display-div{
+  width: 100%;
+  display: none;
+}
+.mobile-head-display{
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 12.5rem;
+  left: 0px;
+  line-height: 50px;
+  word-spacing: 5px;
+  font-weight: 100;
+  border-style: solid;
+  color: hsl(0, 7%, 89%);
+  border-width: 1px;
+  padding: 20px 40px 20px 20px;
+  width: 100%;
+  display: none;
+}
+.mobile-container{
+  background-color:hsl(0, 0%, 100%);
+  padding: 20px;
+  display: block;
+  display: none;
+}
+.mobile-grid1-image-box{
+  position:relative;
+  width: 100%;
+}
+.mobile-grid1-image{
+  display: block;
+  width: 100%;
+  
+}
+.mobile-grid1-textbox{
+  background-color:hsl(0, 0%, 100%);
+}
+.mobile-letterHead{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 100;
+  text-transform: uppercase;
+  padding: 45px 0px 25px 0px;
+  color: hsl(0, 0%, 55%);
+}
+.mobile-parag{
+  line-height: 29px;
+  word-spacing: 5px;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: hsl(0, 0%, 55%);
+}
+.mobile-creation-div{
+  display: flex;
+  justify-content: center;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+.mobile-creation{
+  font-size: 40px;
+  color:  hsl(0, 0%, 41%);
+  text-transform: uppercase;
+  font-weight: 100;
+}
+.button-div{
+  display: flex;
+  justify-content: center;
+}
+.mobile-button{
+  color:  hsl(0, 4%, 17%);
+  font-size: 13px;
+  text-transform: uppercase;
+  word-spacing: 7px;
+  font-weight: 700;
+  border-style: solid;
+  border-color: hsl(0, 3%, 17%);
+  background-color: white;
+  padding: 12px 40px;
+  margin-top: 25px;
+  border-radius: 4px;
+}
+.mobile-button:hover{
+  background-color: hsl(0, 0%, 0%);
+  color: white;
+  transition: all 0.5s ease-in-out;
+  border: none;
+}
+.mobile-images-div{
+  display:flex;
+  flex-direction: column;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+.mobile-images-box{
+  width: 100%;
+  position:relative;
+  display: block;
+}
+.mobile-images{
+  width: 100%;
+}
+h3{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+  font-size: 20px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+.mobile-links{
+  padding-top: 35px;
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.mobile-footer{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-inline: 10px;
+  display: none;
+}
+.mobile-footer h4{
+  color:  hsl(0, 0%, 41%);
+  font-size: 15px;
+  padding-top: 20px;
+}
+.mobile-footer a{
+  color: white;
+  text-decoration: none;
+  padding-bottom: 20px;
+  font-size: 15px;
+}
+.mobile-socials{
+  display: flex;
+  justify-content: center;
+}
+.mobile-socials svg{
+  margin: 0px 10px;
+}
+.mobile-foot-logo{
+  display:flex;
+  justify-content: center;
+}
+.mobile-copywrite{
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width: 995px){
+  .sidebar-div{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 0%;
+    overflow: hidden;
+    transition: all 1s ease;
+    z-index: 1000;
+    display: block;
+  
+  }
+  .sidebar-logo-div{
+    margin-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  
+  .sidebar-div nav{
+    padding-top: 10rem;
+    margin-inline: 20px;
+    display: block;
+  }
+  .sidebar-div a{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 25px;
+    display:block;
+  }
+  .sidebar-div a:hover{
+    color: orangered;
+    text-decoration: underline;
+    padding-left: 9px;
+    transition:all 0.30s ease-in-out;
+  }
+  .ipad-head-image-div{
+    position: relative;
+    width:100%;
+    display: block;
+  }
+  .ipad-head-image{
+    display: block;
+    width: 100%;
+  }
+  .ipad-head-div{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    left: 20px;
+  }
+  .ipad-head-logo-div{
+    display:flex;
+    justify-content: space-between;
+  }
+  .closebtn{
+    margin-top: 8px;
+    display: block;
+  }
+  .ipad-head-display-div{
+    width: 100%;
+    display: block;
+  }
+  .ipad-head-display{
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 12.5rem;
+    left: 0px;
+    line-height: 50px;
+    word-spacing: 5px;
+    font-weight: 100;
+    border-style: solid;
+    color: hsl(0, 7%, 89%);
+    border-width: 1px;
+    padding: 20px 60px 20px 20px;
+    display: block;
+  }
+    .ipad-container{
+      background-color:hsl(0, 0%, 100%);
+      padding: 20px;
+      display: block;
+    }
+    .ipad-grid1{
+      position: relative;
+    }
+    .ipad-grid1-image-box{
+      position:relative;
+      width: 100%;
+    }
+    .ipad-grid1-image{
+      display: block;
+      width: 100%;
+      
+    }
+    .ipad-grid1-textbox{
+      background-color:hsl(0, 0%, 100%);
+      color: hsl(0, 0%, 55%);
+    }
+    .letterHead{
+      text-align: center;
+      font-size: 45px;
+      font-weight: 100;
+      text-transform: uppercase;
+      padding: 6rem 0px 3rem 0px;
+    }
+    .parag{
+      line-height: 29px;
+      word-spacing: 5px;
+      padding-inline: 10px;
+      display: block;
+      text-align: center;
+      font-size: 25px;
+    }
+    .ipad-creation-div{
+      display: flex;
+      justify-content: center;
+      margin-top: 9rem;
+      margin-bottom: 4rem;
+    }
+    .ipad-creation{
+      font-size: 40px;
+      color:  hsl(0, 0%, 41%);
+      text-transform: uppercase;
+      font-weight: 100;
+    }
+    .button-div{
+      display: flex;
+      justify-content: center;
+    }
+    .ipad-button{
+      color:  hsl(0, 4%, 17%);
+      font-size: 13px;
+      text-transform: uppercase;
+      word-spacing: 7px;
+      font-weight: 700;
+      border-style: solid;
+      border-color: hsl(0, 3%, 17%);
+      background-color: white;
+      padding: 12px 40px;
+      margin-top: 25px;
+      border-radius: 4px;
+    }
+    .ipad-button:hover{
+      background-color: hsl(0, 0%, 0%);
+      color: white;
+      transition: all 0.5s ease-in-out;
+      border: none;
+    }
+    .ipad-images-div{
+      display:flex;
+      flex-direction: column;
+      column-gap: 20px;
+      row-gap: 20px;
+    }
+    .ipad-images-box{
+      width: 100%;
+      position:relative;
+      display: block;
+    }
+    .ipad-images{
+      width: 100%;
+    }
+    h3{
+      color: white;
+      text-transform: uppercase;
+      font-weight: 100;
+      font-size: 20px;
+      position: absolute;
+      bottom: 20px;
+      left: 20px;
+    }
+    .ipad-links{
+      padding-top: 35px;
+      padding-bottom: 45px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    
+    }
+
+  /*hiding desktop */
+
+  
+.head-image-div{
+  position: relative;
+  width:100%;
+  display: none;
+}
+.head-image{
+  display: none;
+  width: 100%;
+}
+.head-div{
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  left: 100px;
+  display: none;
+}
+.head-div nav{
+  float:right;
+  padding-top: 10px;
+  display: none;
+}
+.head-div a{
+  color: hsl(0, 0%, 100%);
+  font-size: 19px;
+  text-decoration: none;
+  padding-left: 30px;
+  display: none;
+}
+
+.head-display-div{
+  width: 100%;
+  display: none;
+}
+.head-display{
+  color: hsl(0, 0%, 100%);
+  font-size: 50px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 10rem;
+  left: 0px;
+  line-height: 50px;
+  word-spacing: 5px;
+  font-weight: 100;
+  border-style: solid;
+  color: hsl(0, 7%, 89%);
+  border-width: 1px;
+  padding: 20px 60px 20px 20px;
+  display: none;
+}
+
+.container{
+  background-color:hsl(0, 0%, 100%);
+  padding: 100px;
+  display: block;
+  display: none;
+}
+
+.ipad-container{
+  background-color:hsl(0, 0%, 100%);
+  padding: 20px;
+  display: block;
+}
+.mobile-container{
+  background-color:hsl(0, 0%, 100%);
+  padding: 20px;
+  display: block;
+  display: none;
+}
+
+.footer{
+  background-color: black;
+  justify-content: space-between;
+  display: flex;
+  padding-inline: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: none;
+}
+
+.ipad-foot{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+}
+
+@media(max-width: 700px){
+  
+  .sidebar-div{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 0%;
+    overflow: hidden;
+    transition: all 1s ease;
+    z-index: 1000;
+    display: block;
+  
+  }
+  .sidebar-logo-div{
+    margin-inline: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+  
+  .sidebar-div nav{
+    padding-top: 10rem;
+    margin-inline: 20px;
+    display: block;
+  }
+  .sidebar-div a{
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-bottom: 25px;
+  }
+  .sidebar-div a:hover{
+    color: orangered;
+    text-decoration: underline;
+    padding-left: 9px;
+    transition:all 0.30s ease-in-out;
+  }
+  .mobile-head-image-div{
+    position: relative;
+    width:100%;
+    display: flex;
+  }
+  .mobile-head-image{
+    display: block;
+    width: 100%;
+
+  }
+  .mobile-head-div{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    right: 20px;
+    left: 20px;
+  }
+  .head-logo-div{
+    display:flex;
+    justify-content: space-between;
+  }
+  .closebtn{
+    margin-top: 8px;
+    display: block;
+  }
+  .mobile-head-display-div{
+   width: 100%;
+  }
+  .mobile-head-display{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 12.5rem;
+    left: 0px;
+    width: 300px;
+    line-height: 50px;
+    word-spacing: 5px;
+    font-weight: 100;
+    border-style: solid;
+    color: hsl(0, 7%, 89%);
+    border-width: 1px;
+    padding: 20px 40px 20px 20px;
+    display: block;
+  }
+  
+.mobile-container{
+  background-color:hsl(0, 0%, 100%);
+  padding: 40px 20px;
+  display: block;
+}
+.mobile-footer{
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-inline: 10px;
+}
+  
+  /* hide ipad design*/
+    .sidebar-div{
+      background-color: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 0%;
+      overflow: hidden;
+      transition: all 1s ease;
+      z-index: 1000;
+      display: block;
+    
+    }
+    .sidebar-logo-div{
+      margin-inline: 20px;
+      display: flex;
+      justify-content: space-between;
+      padding-top: 30px;
+    }
+    
+    .sidebar-div nav{
+      padding-top: 10rem;
+      margin-inline: 20px;
+      display: block;
+    }
+    .sidebar-div a{
+      color: hsl(0, 0%, 100%);
+      font-size: 25px;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding-bottom: 25px;
+    }
+    .sidebar-div a:hover{
+      color: orangered;
+      text-decoration: underline;
+      padding-left: 9px;
+      transition:all 0.30s ease-in-out;
+    }
+    .ipad-head-image-div{
+      position: relative;
+      width:100%;
+      display: block;
+      background-color: black;
+      display: none;
+    }
+    .ipad-head-image{
+      display: block;
+      width: 100%;
+      display: none;
+    }
+    .ipad-head-div{
+      display:flex;
+      flex-direction: column;
+      position: absolute;
+      top: 40px;
+      right: 20px;
+      left: 20px;
+    }
+    .ipad-head-logo-div{
+      display:flex;
+      justify-content: space-between;
+      display: none;
+    }
+    .closebtn{
+      margin-top: 8px;
+    }
+    .ipad-head-display-div{
+      width: 100%;
+      display: none;
+    }
+    .ipad-head-display{
+      color: hsl(0, 0%, 100%);
+      font-size: 40px;
+      text-transform: uppercase;
+      position: absolute;
+      top: 12.5rem;
+      left: 0px;
+      line-height: 50px;
+      word-spacing: 5px;
+      font-weight: 100;
+      border-style: solid;
+      color: hsl(0, 7%, 89%);
+      border-width: 1px;
+      padding: 20px 60px 20px 20px;
+      display: none;
+    }
+    .container{
+      background-color:hsl(0, 0%, 100%);
+      padding: 20px;
+      display: none;
+    }
+    
+    .ipad-container{
+       background-color:hsl(0, 0%, 100%);
+       padding: 40px 20px;
+       display: block;
+       display: none;
+    }
+    
+    .footer{
+      background-color: black;
+      justify-content: space-between;
+      display: flex;
+      padding-inline: 100px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: none;
+    }
+    
+    .ipad-foot{
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-top: 50px;
+      padding-bottom: 30px;
+      display: none;
+    }
+  }
