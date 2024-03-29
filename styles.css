@@ -1142,4 +1142,7 @@ h3{
       padding-bottom: 30px;
       display: none;
     }
+    .mobile-copywrite h4{
+      font-size: 12px;
+    }
   }
