@@ -669,6 +669,7 @@ h3{
   .sidebar-div a{
     color: hsl(0, 0%, 100%);
     font-size: 25px;
+    width: 140px;
     text-transform: uppercase;
     text-decoration: none;
     padding-bottom: 25px;
