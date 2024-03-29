@@ -954,6 +954,7 @@ h3{
     text-transform: uppercase;
     text-decoration: none;
     padding-bottom: 25px;
+    width: 135px;
   }
   .sidebar-div a:hover{
     color: orangered;
